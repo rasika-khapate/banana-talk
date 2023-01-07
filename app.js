@@ -4,8 +4,6 @@ var textOutput = document.querySelector("#output");
 
 btnTranslate.addEventListener("click", clickEventHandler)
 
-
-
 var serverURL ="https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(text)
